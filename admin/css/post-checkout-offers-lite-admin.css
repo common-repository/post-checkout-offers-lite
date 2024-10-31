@@ -1,0 +1,620 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+
+/*css for pco*/ 
+
+.wcpcolite_notice{
+  display: none;
+}
+.new_created_offers .wcpcolite_notice  {
+  display: none;
+}
+.mwb_wcpcolite_setting_title {
+  background-color: #3877B4;
+  padding: 10px !important;
+  color: #fff;
+  font-weight: 600 !important;
+  margin-bottom: 10px !important;
+}
+.notice.notice-warning p {
+  padding: 4px !important; 
+} 
+
+.mwb_license_heading {
+  background-color: #3877b4;
+  color: #fff;
+  font-weight: 600 !important;
+  padding: 10px !important;
+}
+
+/*css for pco*/
+#mwb_wcpcolite_setting_wrapper p{
+  color: #000;
+  text-align: left;
+  padding: 10px;
+}
+.mwb_wcpcolite_funnels_list table{
+  table-layout: fixed;
+}
+.mwb_wcpcolite_shortcodes p{
+  display: inline-block;
+}
+#mwb_wcpcolite_setting_wrapper h1{
+  padding: 20px 0;
+  border-radius: 5px;
+  margin-bottom: 30px !important;
+}
+.mwb_wcpcolite_inner img{
+  max-width: 100%;
+}
+
+.mwb-wcpco-wrap p.submit input#submit {
+ background: #0474b7 ;
+ padding: 10px 10px;
+ border: 0px;
+ color: #fff;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.mwb-wcpco-form-table tr {
+ margin-top: 20px;
+ display: block;
+ background: #fff;
+ width: 100% !important;
+ padding: 20px 10px;
+}
+.mwb_wcpcolite_hide {
+  display: none;
+}
+
+.mwb_wcpcolite_show {
+ display: inline;
+ width: 50px;
+ height: 50px;
+} 
+
+.mwb_wcpcolite_funnel_links{
+  background-color:#155FA7;
+  padding:5px;
+  border-radius:5px;
+  color:white;
+}
+.mwb_wcpcolite_funnels_list{
+  margin-top: 50px;
+  overflow-x: auto;
+}
+.mwb_wcpcolite_funnels_list h1, .mwb_table .new_created_offers h2, .mwb_table  h1 {
+  background-color: #155FA7;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.mwb_table  h1{
+  margin:30px 0 0;
+}
+.mwb_table .new_created_offers h2{
+  background-color: #B6B8B5;
+  color: #000;
+}
+.mwb_wcpcolite_funnels_list table {
+  border: 2px none;
+  margin: 60px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.mwb_wcpcolite_funnels_list table th, .mwb_table table th, .mwb_table table th label h4{
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 15px!important;
+  text-align: left;
+}
+.mwb_wcpcolite_funnels_list table td,.mwb_table table td {
+  font-size: 16px;
+  padding: 15px;
+  text-align: left;
+}
+.mwb_wcpcolite_funnels_list table td a {
+   font-size: 15px;
+   font-weight: 400;
+   cursor: pointer;
+   margin-left: 10px;
+   border: none;
+   display: block;
+   padding: 5px 11px;
+   text-decoration: none;
+}
+.mwb_wcpcolite_funnels_list table td p {
+
+    padding: 0px !important;
+
+}
+#mwb_wcpcolite_setting_wrapper .nav-tab:hover,.mwb_wcpcolite_funnels_list table td a:hover{
+  opacity: 0.85;
+}
+.mwb_wcpcolite_create_new_funnel a {
+  font-size: 24px;
+  margin-bottom: 15px;
+  padding: 15px;
+  display: inline-block;
+}
+#mwb_wcpcolite_setting_wrapper{
+  background: #fff none repeat scroll 0 0;
+  padding: 0 20px;
+}
+.nav-tab{
+  background-color:#0a12a9;
+  color: white;
+}
+.nav-tab:hover{
+  background-color:#011b44;
+  color:white; 
+}
+#mwb_wcpcolite_setting_wrapper .nav-tab-active{
+  background: white none repeat scroll 0 0;
+  color: black ;
+}
+
+#mwb_wcpcolite_setting_wrapper #mwb_wcpcolite_setting_form .titledesc {
+  padding-left: 19px;
+}
+
+#mwb_wcpcolite_setting_form tr:nth-child(2n+1) {
+  background: #fff none repeat scroll 0 0;
+}
+#mwb_wcpcolite_setting_form .mwb_table {
+  border: 1px solid #ccc;
+  overflow-x:auto; 
+}
+#mwb_wcpcolite_setting_form .submit input {
+  background: #592e48 none repeat scroll 0 0;
+  border: 1px solid #592e48 ;
+  color: #fff;
+  margin-left: 19px;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+#mwb_wcpcolite_setting_wrapper {
+  background: #fff none repeat scroll 0 0;
+  padding: 20px;
+}
+#mwb_wcpcolite_setting_form tr:nth-child(2n) {
+  background: #387741 none repeat scroll 0 0;
+}
+.hide
+{
+  display: none;
+}
+.show
+{
+  display: inline; !important;
+}
+.mwb_wcpcolite_create_new_funnel{
+  margin:0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+/*custom style*/
+#mwb_wcpcolite_setting_wrapper .nav-tab {
+  background-color: #155FA7;
+  border: medium none;
+  color: white;
+  border-radius: 3px;
+}
+#mwb_wcpcolite_setting_wrapper .nav-tab:nth-child(1) {
+  margin-left: 0;
+}
+#mwb_wcpcolite_setting_wrapper .nav-tab.nav-tab-active {
+
+ background-color: #fff;
+ border: 1px solid;
+ color: #000;
+ padding: 4px 10px;
+ margin-bottom: 0 !important;
+}
+.mwb_wcpcolite_funnels_list table td, .mwb_wcpcolite_funnels_list table th,.mwb_table table th,.mwb_table table td{
+  border: 1px solid #f1f1f1;
+  padding:15px;
+  
+}
+/*edit create funnel style*/
+.mwb_table {
+  margin-top: 50px;
+}
+.mwb_table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.mwb_table table th{
+  width: 35%;
+}
+.mwb_table .new_created_offers h2{
+  font-size: 22px;
+}
+.mwb_table select {
+  height: 45px !important;
+  padding: 10px;
+  width: 50%;
+}
+.mwb_table select option{
+  padding: 10px;
+}
+.mwb_table table th label h4{
+  padding:15px 0;
+}
+.mwb_wcpcolite_create_new_offer::before,.mwb_wcpcolite_create_new_funnel a::before {
+  background-color:#A1D5E2;
+  left: -48%;
+  transform-origin: 100% 50% 0;
+  width: 100%;
+}
+.mwb_wcpcolite_create_new_offer::before, .mwb_wcpcolite_create_new_offer::after ,.mwb_wcpcolite_create_new_funnel a::before,.mwb_wcpcolite_create_new_funnel a::after{
+  bottom: -200%;
+  content: "";
+  display: block;
+  position: absolute;
+  top: -200%;
+  transform: rotate(45deg);
+  transition: width 600ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  z-index: -1;
+}
+.mwb_wcpcolite_create_new_offer::after,.mwb_wcpcolite_create_new_funnel a::after {
+  background-color: #155FA7;
+  right: -48%;
+  transform-origin: 0 50% 0;
+  width: 100%;
+}
+
+.mwb_wcpcolite_create_new_offer,.mwb_wcpcolite_create_new_funnel a{
+  background-color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 45px;
+  letter-spacing: 3px;
+  line-height: 24px;
+  overflow: hidden;
+  padding: 10px 15px;
+  position: relative;
+  text-transform: uppercase;
+  transition: box-shadow 100ms linear 0s;
+  border: none;
+  cursor: pointer;
+  z-index: 99;
+  text-decoration: none;
+  color:#fff;
+}
+.mwb_wcpcolite_create_new_offer:hover,.mwb_wcpcolite_create_new_funnel a:hover{
+  color: #000;
+  border: 1px solid #000;
+}
+.mwb_wcpcolite_create_new_offer:hover::before, .mwb_wcpcolite_create_new_offer.active::before, .mwb_wcpcolite_create_new_offer:hover::after, .mwb_wcpcolite_create_new_offer.active::after {
+  transform: rotate(45deg);
+  width: 0;
+  color: #000;
+}
+.mwb_wcpcolite_create_new_offer:hover, .mwb_wcpcolite_create_new_offer.active {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.13) inset;
+}
+.mwb_wcpcolite_create_new_funnel a:hover::before, .mwb_wcpcolite_create_new_funnel a.active::before, .mwb_wcpcolite_create_new_funnel a:hover::after, .mwb_wcpcolite_create_new_funnel a.active::after {
+  transform: rotate(45deg);
+  width: 0;
+  color: #000;
+}
+#mwb_wcpcolite_creation_setting_save {
+  background-color: #3877b4;
+  border: medium none;
+  box-shadow: 0 1px 0 #c1c3c0;
+  color: #fff;
+  text-shadow: none; 
+  font-weight: 600 ;
+}
+#mwb_wcpcolite_creation_setting_save:hover {
+  opacity: 0.75
+}
+#mwb_wcpcolite_setting_wrapper p,#mwb_wcpcolite_setting_wrapper span{
+  font-size: 16px;
+  font-weight: 400;
+}
+#mwb_wcpcolite_setting_wrapper p.submit {
+  padding: 15px 0 !important;
+}
+#mwb_wcpcolite_setting_wrapper .mwb_wcpcolite_funnels_list p {
+  margin: 0;
+}
+#mwb_wcpcolite_setting_wrapper tr:nth-child(2n) {
+  background-color: #3877B41A;
+}
+.mwb_wcpcolite_new_offer {
+  margin: 30px 0;
+  text-align: center;
+}
+#mwb_wcpcolite_setting_wrapper .mwb_wcpcolite_no_funnel{
+  text-align: center;
+}
+#mwb_wcpcolite_loader {
+ background-color: rgba(255, 255, 255, 0.6);
+ bottom: 0;
+ height: 100%;
+ left: 0;
+ position: fixed;
+ right: 0;
+ top: 0;
+ width: 100%;
+ z-index: 99999;
+}
+#mwb_wcpcolite_loader img {
+ display: block;
+ left: 0;
+ margin: 0 auto;
+ position: absolute;
+ right: 0;
+ top: 40%;
+}
+.mwb_table .wp-picker-container {
+ display: inline-block;
+}
+
+span.mwb_wcpcolite_span label {
+  background-color: #d9edf7 ;
+  border-left: 3px solid #0073aa ;
+  color: #31708f ;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  margin: -4px 0 0;
+  padding: 0 18px 0 15px;
+  position: relative;
+}
+
+span.mwb_wcpcolite_span label::after {
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid #0073aa ;
+  border-top: 8px solid transparent;
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*mycss*/
+.mwb_wcpcolite_delete_new_created_offers {
+  border: 0;
+}
+.new_created_offers span {
+  display: block;
+} 
+
+.mwb_wcpcolite_right_content {
+float: right;
+
+width: 30%;
+
+box-sizing: border-box;
+padding: 0px 15px;
+text-align: center;
+}
+.mwb_wcpcolite_inner .nav-tab-wrapper.nav-tab-wrapper {
+
+    margin: 0;
+    padding: 0;
+
+}
+#mwb_wcpcolite_setting_wrapper{
+  background-color: #fff;
+}
+.mwb_wcpcolite_left_content {
+ float: left;
+ width: 70%;
+ padding-right: 15px;
+ padding-left: 15px;
+ box-sizing: border-box;
+}
+.mwb_wcpcolite_inner {
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.clearfix:after{
+ content: '';
+ display: block;
+ clear: both;
+}
+.mwb_wcpcolite_left_content .mwb_wcpcolite_creation_setting tr td input {
+  width: calc(100% - 30px) !important;
+  float: right;
+}
+
+.mwb_wcpcolite_left_content .mwb_wcpcolite_creation_setting tr td input#mwb_wcpcolite_funnel_enable {
+  width: 10px !important;
+  float: none;
+} 
+
+.mwb_wcpcolite_right_content .mwb_wcpcolite_inner {
+
+    border: solid 1px #ccc;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 24px 0px #adadad;
+
+} 
+
+.mwb_wcpcolite_pro_feature {
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+  list-style: outside none disc;
+}  
+
+.mwb_wcpcolite_inner_feature h3 {
+  text-align: left;
+}
+
+.mwb_wcpcolite_pro_feature li {
+  padding-top: 10px;
+}
+
+.mwb_wcpcolite_inner_feature h1 {
+  background-color: #777;
+  color: #fff;
+}  
+
+.mwb_wcpcolite_pro_buy_now {
+  padding: 15px;
+  color: #fff;
+  background-color: #178f0f;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+} 
+
+.mwb_wcpcolite_pro_buy_now:hover {
+  color: #fff;
+} 
+.mwb_table table td:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mwb_table table td {
+   word-break: break-all;
+} 
+.mwb_wcpcolite_left_content .mwb_wcpcolite_creation_setting tr td span.select2 {
+    min-width: auto !important;
+
+width: calc(100% - 30px) !important;
+
+float: right;
+}
+@media screen and (max-width: 782px){
+body {
+   min-width: 100%;
+  
+}
+.mwb_wcpcolite_inner {
+  padding: 0px;
+  border-radius: 0px;
+}
+.mwb_wcpcolite_left_content{
+  padding: 0px;
+}
+.mwb_table table th {
+    width: 100%;
+}
+#mwb_wcpcolite_setting_wrapper tr {
+    display: grid;
+}
+.mwb_table table td {
+    width: 100%;
+        box-sizing: border-box;
+}
+.mwb_table table td select {
+    width: 100%;
+}
+.mwb_table table th label h4 {
+    margin: 0;
+}
+.mwb_table table td span.select2 {
+    width: 100% !important;
+}
+.mwb_table table td input[type="text"] {
+    width: 100% !important;
+}
+}
+
+
+  /*===================================
+  =            media query            =
+  ===================================*/
+  @media only screen and (max-width:850px)  {
+   .mwb_wcpcolite_left_content {
+     width: 100%;
+   }
+   .mwb_wcpcolite_right_content {
+     width: 100%;
+   }
+
+ }
+ @media only screen and (max-width:600px)  {
+  .mwb_wcpcolite_funnels_list table {
+    width: 530px;
+  }
+  .mwb_wcpcolite_funnels_list {
+    overflow-x: auto;
+    width: 100%;
+  }
+  #mwb_wcpcolite_setting_wrapper .nav-tab {
+    margin-top: 17px;
+    border-radius: 3px;
+  }
+  table.form-table.mwb_wcpcolite_creation_setting select#mwb_wcpcolite_applied_rule {
+    width: 100%;
+  }
+  table.form-table.mwb_wcpcolite_creation_setting span.select2.select2-container.select2-container--default.select2-container--focus.select2-container--below {
+    width: 100% !important;
+  }
+  
+  .new_created_offers {
+   overflow-x: auto;
+   width: 100%;
+ }
+ #wpbody select {
+   height: auto;
+ }
+ .mwb_table select {
+  width: 100%;
+}
+}
+
+
+@media only screen and (max-width:500px)  {
+ #mwb_wcpcolite_setting_wrapper .mwb_table .select2-container .select2-search__field {
+  font-size: 11px !important;
+  width: 80% !important;
+}
+#mwb_wcpcolite_setting_wrapper .mwb_table .new_created_offers input {
+  width: 85% !important;
+  font-size: 10px !important;
+}
+#mwb_wcpcolite_setting_wrapper .mwb_table .new_created_offers select {
+  font-size: 11px !important;
+  height: 39px !important;
+  width: 80% !important;
+}
+.mwb_table table th label h4{
+  padding:0 !important;
+}
+#mwb_wcpcolite_setting_wrapper p, #mwb_wcpcolite_setting_wrapper span{
+  font-size: 14px !important; 
+}
+#mwb_wcpcolite_setting_wrapper .mwb_table #mwb_wcpcolite_funnel_name{
+  width: calc(90% - 10px) !important;
+}
+#mwb_wcpcolite_setting_wrapper .mwb_table .select2-selection.select2-selection--multiple {
+ width: calc(90% - 10px) !important;
+}
+#mwb_wcpcolite_setting_wrapper .mwb_table select{
+  width: 64% !important;
+}
+#mwb_wcpcolite_setting_wrapper .mwb_wcpcolite_common_class {
+  width: 95% !important;
+  font-size: 12px !important;
+}
+
+#mwb_wcpcolite_license_form .mwb-wcpco-form-table #mwb_wcpcolite_license_key{
+  width: 95% !important;
+}
+}
+
+/*=====  End of media query  ======*/
+

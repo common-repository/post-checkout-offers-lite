@@ -1,0 +1,258 @@
+/**
+* All of the CSS for your public-facing functionality should be
+* included in this file.
+*/
+
+.mwb_wcpcolite_offer_container{
+  padding:50px 150px;
+  background: white;
+}
+.mwb_wcpcolite_special_offer_banner {
+  text-align: center;
+  text-transform: uppercase;
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_special_offer_banner {
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper .mwb_wcpcolite_product_image {
+  float: left;
+  max-width: 40%;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.25);
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper .mwb_wcpcolite_product_image img {
+  max-width: 100%;
+  width: 100%;
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper::after {
+  clear: both;
+  content: "";
+  display: block;
+  position: absolute;
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper{
+  overflow: hidden;
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper .mwb_wcpcolite_offered_product {
+  float: left;
+  padding: 0 15px;
+  width: 60%;
+  margin-bottom: 30px;
+}
+.mwb_wcpcolite_offered_product_description {
+  box-sizing: border-box;
+  padding: 15px;
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper .mwb_wcpcolite_product_title {
+  box-sizing: border-box;
+  padding: 0 15px;
+  text-align: left;
+  width: 100%;
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_product_price > h4 ,.mwb_wcpcolite_variable_price_html.display{
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.25);
+  display: inline-block;
+  padding: 10px 40px;
+} 
+
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_product_timer > h4 {
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.25);
+  display: inline-block;
+  padding: 10px 40px;
+}
+.mwb_wcpcolite_buy p{
+  text-align: right;
+}
+.mwb_wcpcolite_variations .mwb_wcpcolite_variations_select {
+  height: 44px;
+  width: 50%;
+}
+.mwb_wcpcolite_variations {
+  padding: 0 15px;
+}
+.mwb_wcpcolite_variations .mwb_wcpcolite_variations_select option {
+  padding: 10px;
+}
+.mwb_wcpcolite_offered_product #mwb_wcpcolite_variable_price {
+  padding: 0 15px;
+}
+.mwb_wcpcolite_special_offers_for_you .woocommerce-Price-amount.amount {
+  font-weight: bold;
+}
+.mwb_wcpcolite_product_attribute {
+  display: block;
+  padding: 6px 0;
+}
+.mwb_wcpcolite_variable_price_html del .woocommerce-Price-amount.amount {
+  font-weight: 500;
+}  
+
+.timer_on {
+  background-color: green;
+} 
+
+#mwb_wcpcolite_footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3a3f3e;
+  color: white;
+  text-align: center;
+  padding: 15px 0px;
+}
+#mwb_wcpcolite_footer p {
+  margin: 0; 
+} 
+#mwb_wcpcolite_go_to_parent {
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+
+/*media queries*/ 
+
+@media only screen and (max-width: 767px) {
+  #mwb_wcpcolite_footer {
+    bottom: 69px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .mwb_wcpcolite_offer_container {
+    padding: 50px 50px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper .mwb_wcpcolite_product_image {
+    float: none;
+    max-width: 100%;
+  }
+  .mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper .mwb_wcpcolite_offered_product {
+    float: none;
+    padding: 15px;
+    width: 100%;
+  }
+  .mwb_wcpcolite_variations .mwb_wcpcolite_variations_select {
+    height: 44px;
+    width: 100%;
+  }
+  .mwb_wcpcolite_offer_container {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 550px){
+  .mwb_wcpcolite_product_price h4{
+    font-size: 20px !important;
+  }
+  .mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_special_offer_banner{
+    margin-bottom: 20px !important;
+  }
+  .mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_special_offer_banner h1 {
+    font-size: 20px;
+  }
+}
+
+
+/* 25/01/2018 */
+
+.mwb_wcpcolite_variations tr td {
+  border: none;
+}
+.mwb_wcpcolite_product_price h4 {
+  background-color: #f2f5f7;
+  color: #000;
+  border: solid 2px #cecece;
+  border-style: dashed;
+  font-size: 27px;
+  text-align: center;
+} 
+
+.mwb_wcpcolite_product_timer h4 {
+  
+  font-size: 27px;
+  text-align: center; 
+  font-weight: 400; 
+}  
+
+.timer_on {
+  background-color: #008000;
+  color: #fff;
+} 
+
+.timer_off{
+  background-color: #ff0000;
+  color: #fff;
+} 
+
+#count span {
+  font-weight: 600; 
+}
+
+.mwb_wcpcolite_product_price h4 del {
+  color: #000;
+  padding-left: 10px;
+}
+.mwb_wcpcolite_product_price h4 ins {
+  background-color: #fff;
+  color: #000;
+}
+.mwb_wcpcolite_offered_product_actions {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px;
+}
+.mwb_wcpcolite_offered_product_actions button.mwb_wcpcolite_buy {
+  padding: 11px 26px !important;
+  color: #fff !important;
+  font-size: 17px !important;
+  border: 0px;
+  margin-right: 10px;
+  cursor: pointer !important;
+}
+.mwb_wcpcolite_offered_product_actions a.mwb_wcpcolite_skip {
+  padding: 5px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-block;
+  position: initial;
+  text-align: right;
+  border: solid 1px;
+  top: -5px;
+}
+
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_main_wrapper .mwb_wcpcolite_offered_product a.mwb_wcpcolite_skip {
+  padding: 6px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 15px;
+  text-align: right;
+  border: solid 1px;
+  float: right;
+}
+.mwb_wcpcolite_variations table {
+  width: 100%;
+}
+.mwb_wcpcolite_special_offers_for_you .mwb_wcpcolite_product_price .mwb_wcpcolite_product_timer {
+  width: 100%;
+  margin: 0 auto;
+}
+.mwb_wcpcolite_display{
+  display: inline;
+}
+.mwb_wcpcolite_hide{
+  display: none;
+}
+.mwb_wcpcolite_demotext {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
